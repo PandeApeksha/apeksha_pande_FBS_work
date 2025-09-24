@@ -1,19 +1,23 @@
-num = int(input('Enter the Number :'))
-temp = num
-sum = 0
-digits = 0
-count = num
+beg = int(input('Enter the beginning of range: '))
+end = int(input('Enter the ending of range: '))
 
-while(count > 0):
-    digits += 1
-    count //= 10
+for num in range(beg, end + 1):
+    n = num
+    temp = num
+    count = 0
 
-while(temp > 0):
-    rem_num = temp % 10
-    sum += rem_num ** digits
-    temp //= 10
+    while (temp > 0):
+        temp = temp // 10
+        count += 1
 
-if (num == sum):
-    print(f'{num} is an Armstrong number.')
-else:
-    print(f'{num} is not an Armstrong number.')
+    temp = num
+    sum_of_power = 0
+
+    while (temp > 0):
+        digit = temp % 10
+        sum_of_power += digit ** count
+        temp = temp // 10
+
+    if sum_of_power == n:
+        print(n)
+
