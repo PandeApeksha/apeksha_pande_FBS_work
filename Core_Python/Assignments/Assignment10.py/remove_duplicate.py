@@ -9,3 +9,5 @@ li1 = [10, 20, 30, 40, 50, 30, 20]
 print(f'original list :{li1}')
 res = remove_Duplicate(li1)
 print(f'list after removing duplicates :{res}')
+
+

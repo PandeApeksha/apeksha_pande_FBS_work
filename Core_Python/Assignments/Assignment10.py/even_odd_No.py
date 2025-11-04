@@ -18,3 +18,4 @@ Even, Odd = Even_Odd(li1)
 
 print(f'Even numbers list :{Even}')
 print(f'Odd numbers list :{Odd}')
+

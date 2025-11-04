@@ -14,3 +14,4 @@ res = reverse(li1)
 print(f'The reversed list is :{res}')
 
 
+

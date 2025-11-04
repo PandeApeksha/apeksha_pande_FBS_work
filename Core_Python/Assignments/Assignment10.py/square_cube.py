@@ -1,4 +1,3 @@
-
 def square_Cube(li1):
     square = 0
     cube = 0
