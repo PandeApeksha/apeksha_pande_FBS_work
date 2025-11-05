@@ -1,0 +1,16 @@
+
+Data = [
+    [101, "Seema", 45000],
+    [340, "Rajani", 13000],
+    [210, "Tannu", 14000],
+    [320, "Suresh", 35000]
+]
+
+
+def show_employees(emp_list):
+    print("EmpID\tName\tSalary")
+    print("---------------------------")
+    for emp in emp_list:
+        emp_id, name, salary = emp
+        print(f"{emp_id}\t{name}\t{salary}")
+show_employees(Data)
