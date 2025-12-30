@@ -1,0 +1,4 @@
+101, Sanchita Kaphale, 50000.0, Data scientist
+102, Apeksha Pande, 800000.0, Python Dev
+103, Omkar, 700000.0, Web Dev
+104, Sushant , 1000000.0, JAVA dev
