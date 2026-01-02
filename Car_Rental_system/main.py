@@ -8,7 +8,7 @@ if not os.path.exists("bookings.txt"): open("bookings.txt","w").close()
 def admin_login():
     u = input("Admin Username: ")
     p = input("Admin Password: ")
-    return u=="admin" and p=="admin123"
+    return u=="Apeksha" and p=="Apeksha123"
 
 def add_car():
     cid = input("Car ID: ")
@@ -121,4 +121,5 @@ while True:
                 print("Login Failed!")
 
     else:
+
         break
